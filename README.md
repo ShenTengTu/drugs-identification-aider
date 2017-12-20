@@ -1,3 +1,12 @@
+<style>
+img{
+  margin: 0 auto;
+  display: block;
+  max-width: 80%!important;
+  max-height: 720px;
+}
+</style>
+
 # 雲端技術輔助毒品鑑識之研究
 使用 `APP Inventor 2` 設計 Android App，透過`Google Fusion Tables API` 讀取毒品資料來輔助毒品鑑識的工作。
 
@@ -101,9 +110,10 @@ API可以使用SQL語句來請求融合表的資料。SQL查詢可作為一個`s
 
 ![Figure 12](assets/blocks/blocks_當Screen1被回壓.png)
 
-以下是`封面畫面(Screen1)`的在手機上的呈現及運作流程圖
+以下是`封面畫面(Screen1)`的在手機上的呈現及運作流程圖：
 
 ![Figure 13](assets/readme/view_Screen1.jpg)
 
+![Figure 14](assets/readme/APP流程─Screen1.png)
 
 接下來，開始說明`主畫面(main)`的畫面操作、運作流程及邏輯設計方塊的說明。
