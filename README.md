@@ -154,3 +154,16 @@ API可以使用SQL語句來請求融合表的資料。SQL查詢可作為一個`s
 ![Figure 27](assets/readme/APP流程─main.png)
 
 接下來，開始說明`毒品明細畫面(drug_detail)`的畫面操作、運作流程及邏輯設計方塊的說明。
+
+#### 毒品明細畫面(drug_detail)
+最後階段是將指定的毒品詳細資料有條理的呈現。在`毒品明細畫面(drug_detail`中，會使用`Image(圖像)`組件顯示毒品圖片，未啟用的`TextBox(文本輸入框)`顯示症狀的描述，`Label(標籤)`顯示其他屬性的文本。當`返回按鈕`被點擊時，會關閉當前的畫面，並返回至`主畫面(main)`以便使用者進行其他操作。
+
+![Figure 28](assets/blocks/blocks_當返回按鈕被點擊.png)
+
+![Figure 29](assets/blocks/blocks_當drug_detail初始化.png)
+
+以下是`毒品明細畫面(drug_detail)`的在手機上的呈現及運作流程圖：
+
+![Figure 30](assets/readme/view_drug_detail.jpg)
+
+![Figure 31](assets/readme/APP流程─drag_detail.png)
